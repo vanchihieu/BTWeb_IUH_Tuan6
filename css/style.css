@@ -197,3 +197,53 @@
         text-align: center;
         color: #00bdd6;
     }
+    /* review */
+    
+    .reviews_top {
+        display: flex;
+        justify-content: space-between;
+        margin: 47px 0;
+    }
+    
+    .reviews_rate-left span:first-of-type {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .reviews_rate-left span:nth-child(3) {
+        font-weight: bold;
+    }
+    
+    .reviews_rate-left span:nth-child(4) {
+        color: #8e949f;
+    }
+    
+    .reviews_rate-right span {
+        color: #8e949f;
+        padding-right: 10px;
+    }
+    
+    .reviews_bot {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .reviews_content-title {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .reviews_content-title .author span:first-child {
+        font-weight: bold;
+    }
+    
+    .reviews_content-title .author span:last-of-type {
+        color: #9095a0;
+        font-size: 14px;
+    }
+    
+    .reviews_content-title .author .rating {
+        margin: 5px 0;
+    }
