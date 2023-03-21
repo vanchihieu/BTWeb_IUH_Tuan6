@@ -100,3 +100,100 @@
     .product_images-right img {
         padding: 5px;
     }
+    
+    .product_desc {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .product_desc-left {
+        width: 70%;
+    }
+    
+    .product_desc-right {
+        width: 25%;
+    }
+    
+    .product_desc-left>h2 {
+        margin: 20px 0;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .product_desc-left>p {
+        line-height: 19px;
+    }
+    
+    .product_desc-left>p:last-of-type {
+        margin-bottom: 25px;
+    }
+    
+    .product_desc-services {
+        display: flex;
+        gap: 70px;
+        margin-bottom: 15px;
+    }
+    
+    .product_desc-services-left,
+    .product_desc-services-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .product_desc-services-left span,
+    .product_desc-services-right span {
+        font-size: 15px;
+    }
+    
+    .product_desc-right {
+        border: 2px solid #f8f8f8;
+        padding: 20px;
+    }
+    
+    .product_desc-right h5 {
+        font-size: 35px;
+        font-weight: bold;
+        text-align: right;
+        color: #00bdd6;
+    }
+    
+    .product_desc-right input {
+        width: 93%;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+    
+    .product_desc-right .total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .product_desc-right .total span:first-of-type {
+        color: #9095a0;
+    }
+    
+    .product_desc-right .total span:last-of-type {
+        font-weight: bold;
+    }
+    
+    .product_desc-right .buy {
+        width: 93%;
+        background-color: #00bdd6;
+        padding: 13px 8px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    .product_desc-right .card {
+        border: 1px solid #00bdd6;
+        width: 93%;
+        padding: 13px 8px;
+        text-align: center;
+        color: #00bdd6;
+    }
